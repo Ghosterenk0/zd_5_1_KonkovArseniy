@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ghosterenk0\\Desktop\\c#\\Cable\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3971248C-3AC4-409B-A241-F681DB48D0FB}|..\\main\\main.csproj|c:\\users\\ghosterenk0\\desktop\\c#\\main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3971248C-3AC4-409B-A241-F681DB48D0FB}|..\\main\\main.csproj|c:\\users\\ghosterenk0\\desktop\\c#\\main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C715F332-E745-468E-9AEF-39E9FD6E41D2}|Cables.csproj|c:\\users\\ghosterenk0\\desktop\\c#\\cable\\enhancedcable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C715F332-E745-468E-9AEF-39E9FD6E41D2}|Cables.csproj|solutionrelative:enhancedcable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C715F332-E745-468E-9AEF-39E9FD6E41D2}|Cable.csproj|C:\\Users\\Ghosterenk0\\Desktop\\c#\\Cable\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C715F332-E745-468E-9AEF-39E9FD6E41D2}|Cable.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C715F332-E745-468E-9AEF-39E9FD6E41D2}|Cable.csproj|C:\\Users\\Ghosterenk0\\Desktop\\c#\\Cable\\enhancedcable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C715F332-E745-468E-9AEF-39E9FD6E41D2}|Cable.csproj|solutionrelative:enhancedcable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{038B4844-C516-4825-8384-6104B43D00BC}|..\\UnitTestProject1\\UnitTestProject1.csproj|c:\\users\\ghosterenk0\\desktop\\c#\\unittestproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Ghosterenk0\\Desktop\\c#\\main\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\main\\Form1.cs",
+              "ToolTip": "C:\\Users\\Ghosterenk0\\Desktop\\c#\\main\\Form1.cs",
+              "RelativeToolTip": "..\\main\\Form1.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwFUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T12:38:38.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnhancedCable.cs",
+              "DocumentMoniker": "C:\\Users\\Ghosterenk0\\Desktop\\c#\\Cable\\EnhancedCable.cs",
+              "RelativeDocumentMoniker": "EnhancedCable.cs",
+              "ToolTip": "C:\\Users\\Ghosterenk0\\Desktop\\c#\\Cable\\EnhancedCable.cs",
+              "RelativeToolTip": "EnhancedCable.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T12:34:02.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Ghosterenk0\\Desktop\\c#\\UnitTestProject1\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\UnitTestProject1\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Ghosterenk0\\Desktop\\c#\\UnitTestProject1\\UnitTest1.cs",
+              "RelativeToolTip": "..\\UnitTestProject1\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T12:30:31.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Ghosterenk0\\Desktop\\c#\\main\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\main\\Form1.cs",
+              "ToolTip": "C:\\Users\\Ghosterenk0\\Desktop\\c#\\main\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "..\\main\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T12:28:07.821Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnhancedCable.cs",
+              "DocumentMoniker": "C:\\Users\\Ghosterenk0\\Desktop\\c#\\Cable\\EnhancedCable.cs",
+              "RelativeDocumentMoniker": "EnhancedCable.cs",
+              "ToolTip": "C:\\Users\\Ghosterenk0\\Desktop\\c#\\Cable\\EnhancedCable.cs",
+              "RelativeToolTip": "EnhancedCable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T12:23:08.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Ghosterenk0\\Desktop\\c#\\Cable\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "C:\\Users\\Ghosterenk0\\Desktop\\c#\\Cable\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA4wCwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T12:19:24.026Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+C:\Users\Ghosterenk0\Desktop\c#\Cable\bin\Debug\Cable.dll
+C:\Users\Ghosterenk0\Desktop\c#\Cable\bin\Debug\Cable.pdb
+C:\Users\Ghosterenk0\Desktop\c#\Cable\obj\Debug\Cables.csproj.AssemblyReference.cache
+C:\Users\Ghosterenk0\Desktop\c#\Cable\obj\Debug\Cables.csproj.CoreCompileInputs.cache
+C:\Users\Ghosterenk0\Desktop\c#\Cable\obj\Debug\Cable.dll
+C:\Users\Ghosterenk0\Desktop\c#\Cable\obj\Debug\Cable.pdb
