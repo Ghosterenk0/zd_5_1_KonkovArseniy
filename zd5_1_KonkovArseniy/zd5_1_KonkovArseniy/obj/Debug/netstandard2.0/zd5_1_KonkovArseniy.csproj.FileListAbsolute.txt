@@ -1,0 +1,17 @@
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\obj\Debug\netstandard2.0\zd5_1_KonkovArseniy.csproj.AssemblyReference.cache
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\obj\Debug\netstandard2.0\zd5_1_KonkovArseniy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\obj\Debug\netstandard2.0\mystyles.css.g.cs
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\obj\Debug\netstandard2.0\zd5_1_KonkovArseniy.AssemblyInfoInputs.cache
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\obj\Debug\netstandard2.0\zd5_1_KonkovArseniy.AssemblyInfo.cs
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\obj\Debug\netstandard2.0\zd5_1_KonkovArseniy.csproj.CoreCompileInputs.cache
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\obj\Debug\netstandard2.0\zd5_1_KonkovArseniy.dll
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\obj\Debug\netstandard2.0\refint\zd5_1_KonkovArseniy.dll
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\obj\Debug\netstandard2.0\zd5_1_KonkovArseniy.pdb
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\bin\Debug\netstandard2.0\zd5_1_KonkovArseniy.deps.json
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\bin\Debug\netstandard2.0\zd5_1_KonkovArseniy.dll
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\bin\Debug\netstandard2.0\ref\zd5_1_KonkovArseniy.dll
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\bin\Debug\netstandard2.0\zd5_1_KonkovArseniy.pdb
+C:\Users\st310-07\Desktop\zd5_1_KonkovArseniy\zd5_1_KonkovArseniy\obj\Debug\netstandard2.0\XamlC.stamp

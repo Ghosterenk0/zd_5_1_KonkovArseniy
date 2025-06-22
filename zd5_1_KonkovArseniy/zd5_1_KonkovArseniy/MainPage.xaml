@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:sys="clr-namespace:System;assembly=mscorlib"
+            x:Class="zd5_1_KonkovArseniy.MainPage"
+            BarBackgroundColor="#3F51B5"
+            BarTextColor="White">
+
+    <TabbedPage.Children>
+        <!-- Первая вкладка - Калькулятор -->
+        <ContentPage Title="Калькулятор" BackgroundColor="#FAFAFA">
+            <ScrollView>
+                <StackLayout Padding="20" Spacing="15">
+                    <Label x:Name="userLabel" 
+                           Text="{Binding CurrentUser}"
+                           FontSize="Small"
+                           HorizontalOptions="End"
+                           TextColor="#3F51B5"
+                           Margin="0,0,0,10"/>
+
+                    <Label Text="Кредитный калькулятор" 
+                           FontSize="Large" 
+                           FontAttributes="Bold" 
+                           HorizontalOptions="Center"
+                           TextColor="#3F51B5"/>
+
+                    <Frame BorderColor="#E0E0E0" 
+                           CornerRadius="10" 
+                           Padding="15"
+                           BackgroundColor="White"
+                           HasShadow="True">
+                        <StackLayout Spacing="12">
+                            <Label Text="Сумма кредита:" TextColor="#616161"/>
+                            <Entry x:Name="amountEntry" 
+                                   Keyboard="Numeric" 
+                                   Placeholder="Введите сумму"
+                                   TextColor="#212121"/>
+
+                            <Label Text="Срок (месяцев):" TextColor="#616161"/>
+                            <Entry x:Name="termEntry" 
+                                   Keyboard="Numeric" 
+                                   Placeholder="Введите срок"
+                                   TextColor="#212121"/>
+
+                            <Label Text="Вид платежа:" TextColor="#616161"/>
+                            <Picker x:Name="paymentTypePicker"
+                                    TextColor="#212121">
+                                <Picker.Items>
+                                    <x:String>Аннуитетный</x:String>
+                                    <x:String>Дифференцированный</x:String>
+                                </Picker.Items>
+                            </Picker>
+
+                            <Label Text="Процентная ставка:" TextColor="#616161"/>
+                            <StackLayout Orientation="Horizontal" Spacing="10">
+                                <Slider x:Name="rateSlider" 
+                                        Minimum="0" 
+                                        Maximum="100" 
+                                        Value="5" 
+                                        HorizontalOptions="FillAndExpand"
+                                        MinimumTrackColor="#7986CB"
+                                        MaximumTrackColor="#E8EAF6"
+                                        ThumbColor="#3F51B5"/>
+                                <Label x:Name="rateLabel" 
+                                       Text="5%" 
+                                       FontSize="Medium"
+                                       TextColor="#3F51B5"/>
+                            </StackLayout>
+
+                            <Button Text="Рассчитать" 
+                                    BackgroundColor="#3F51B5" 
+                                    TextColor="White"
+                                    CornerRadius="5"
+                                    FontAttributes="Bold"
+                                    HeightRequest="45"
+                                    Margin="0,10"
+                                    Clicked="OnCalculateClicked"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame x:Name="resultFrame" 
+                           BorderColor="#E0E0E0" 
+                           CornerRadius="10" 
+                           Padding="15"
+                           BackgroundColor="White"
+                           HasShadow="True"
+                           IsVisible="False">
+                        <StackLayout Spacing="10">
+                            <Label Text="Результаты расчета:" 
+                                   FontAttributes="Bold"
+                                   TextColor="#3F51B5"/>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Ежемесячный платеж:" TextColor="#616161"/>
+                                <Label x:Name="monthlyPaymentLabel" 
+                                       Text="...." 
+                                       FontAttributes="Bold"
+                                       TextColor="#212121"
+                                       HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Общая сумма:" TextColor="#616161"/>
+                                <Label x:Name="totalPaymentLabel" 
+                                       Text="...." 
+                                       FontAttributes="Bold"
+                                       TextColor="#212121"
+                                       HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Переплата:" TextColor="#616161"/>
+                                <Label x:Name="overpaymentLabel" 
+                                       Text="...." 
+                                       FontAttributes="Bold"
+                                       TextColor="#212121"
+                                       HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+        </ContentPage>
+
+        <!-- Вторая вкладка - Курсы валют -->
+        <ContentPage Title="Курсы" BackgroundColor="#FAFAFA">
+            <ScrollView>
+                <StackLayout Padding="20" Spacing="15">
+                    <Label x:Name="userLabel2" 
+                           Text="{Binding CurrentUser}"
+                           FontSize="Small"
+                           HorizontalOptions="End"
+                           TextColor="#3F51B5"
+                           Margin="0,0,0,10"/>
+
+                    <Label Text="Курсы валют" 
+                           FontSize="Large" 
+                           FontAttributes="Bold" 
+                           HorizontalOptions="Center"
+                           TextColor="#3F51B5"/>
+
+                    <Label Text="Центробанк РФ:" 
+                           FontAttributes="Bold"
+                           TextColor="#616161"/>
+
+                    <Frame BorderColor="#E0E0E0" 
+                           CornerRadius="10" 
+                           Padding="15"
+                           BackgroundColor="White"
+                           HasShadow="True">
+                        <StackLayout Spacing="12">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="USD" FontAttributes="Bold" TextColor="#3F51B5"/>
+                                <Label Text="80.000" 
+                                       HorizontalOptions="EndAndExpand"
+                                       TextColor="#212121"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="EUR" FontAttributes="Bold" TextColor="#3F51B5"/>
+                                <Label Text="86.000" 
+                                       HorizontalOptions="EndAndExpand"
+                                       TextColor="#212121"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <Label Text="Текущая дата:" 
+                           FontAttributes="Bold"
+                           TextColor="#616161"/>
+                    <DatePicker x:Name="currentDatePicker" 
+                                Format="dd/MM/yyyy"
+                                TextColor="#212121"
+                                Date="{x:Static sys:DateTime.Now}"
+                                BackgroundColor="White"
+                                HorizontalOptions="Fill"/>
+                </StackLayout>
+            </ScrollView>
+        </ContentPage>
+    </TabbedPage.Children>
+</TabbedPage>
